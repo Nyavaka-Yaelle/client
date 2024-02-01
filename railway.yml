@@ -1,7 +1,7 @@
 services:
   default:
     buildCommand: "./gradlew build"
-    runCommand: "java -jar build/libs/monprojet.jar"
+    runCommand: "java -jar --enable-preview build/libs/monprojet.jar"
 scripts:
   build: "./gradlew build"
-  start: "java -jar build/libs/monprojet.jar"
+  start: "java -jar --enable-preview build/libs/monprojet.jar"
